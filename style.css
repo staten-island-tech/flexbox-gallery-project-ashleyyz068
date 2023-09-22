@@ -1,12 +1,61 @@
-html, 
-body, *{
+ body{
     padding: 0;
     margin:0;
     box-sizing: border-box; 
     font-size: 62.5%; 
 }
 
-h1{
-    font-size: 1 rem;
-    
+h1 {
+    font-family: 'Archivo', sans-serif;
+    font-size: 100px;
+    text-align: center;
+    color: white;
+    padding: 150px
+}
+
+.header {
+    background-image: url(images/anastasia-petrova-xu2WYJek5AI-unsplash.jpg);
+    background-size: cover;
+    height: 400px;
+
+}
+
+body{
+    background-color: #d0f2b8;
+}
+
+.card{
+    height: 50vh;
+    width: 27vw; 
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    margin: 1rem 1rem 1rem; 
+    border-radius: 20px; 
+    box-shadow: 10px 10px #4f4f4f;    
+}
+
+.card-img{
+    border-top-right-radius: 20px; 
+    border-top-left-radius: 20px;
+    height:70%;
+    width: 100%; 
+    overflow: hidden; 
+
+}
+
+.flex-container{
+    flex-wrap: wrap;
+    display:flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+}
+
+.card-title{
+    text-align: center;
+    font-family: 'Archivo', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
 }
