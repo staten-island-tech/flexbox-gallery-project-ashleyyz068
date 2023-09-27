@@ -26,7 +26,7 @@ body{
 
 .card{
     height: 50vh;
-    width: 27vw; 
+    width: 20vw; 
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -34,8 +34,10 @@ body{
     background-color: white;
     margin: 1rem 1rem 1rem; 
     border-radius: 20px; 
-    box-shadow: 10px 10px #4f4f4f;    
+    box-shadow: 10px 10px #4f4f4f;  
+    transition: all 0.3s;  
 }
+
 
 .card-img{
     border-top-right-radius: 20px; 
@@ -58,4 +60,17 @@ body{
     font-family: 'Archivo', sans-serif;
     font-family: 'Roboto', sans-serif;
     font-size: 1.5rem;
+}
+
+#card1:hover {
+    transform: rotate(90deg);
+}
+#card4:hover{
+    transform: matrix(0, 1, 1, 0, 0, 0);
+}
+#card5:hover{
+    transform: rotate(350deg);
+}
+#card8:hover{
+    transform: scale(1.2)
 }
