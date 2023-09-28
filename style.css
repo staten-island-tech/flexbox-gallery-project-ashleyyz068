@@ -11,6 +11,7 @@ h1 {
     text-align: center;
     color: white;
     padding: 150px
+    animation: test 4s infinite;
 }
 
 .header {
@@ -83,4 +84,12 @@ body{
         border-top-right-radius: 50px;
         border-top-left-radius:  50px;
     }
+}
+
+@keyframes test{
+0%{
+    left: 50%;
+    bottom: 10%;
+    transform: scale(2);
+}
 }
