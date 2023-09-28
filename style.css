@@ -63,7 +63,7 @@ body{
 }
 
 #card1:hover {
-    transform: rotate(90deg);
+    transform: translateY(20px)
 }
 #card4:hover{
     transform: matrix(0, 1, 1, 0, 0, 0);
@@ -73,4 +73,14 @@ body{
 }
 #card8:hover{
     transform: scale(1.2)
+}
+#card7:hover{
+    color: #494949 !important;
+    border-radius: 50px;
+    border-color: #494949 !important;
+    transition: all 0.3s ease 0s;
+    .card-img{
+        border-top-right-radius: 50px;
+        border-top-left-radius:  50px;
+    }
 }
